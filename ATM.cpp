@@ -157,8 +157,8 @@ int main() {
                 cout << endl << "4. Update Mobile No.";
                 cout << endl << "5. View Transaction History";
                 cout << endl << "6. Lock Account (for security purposes)";
-                cout << endl << "7. Exit";
-                cout << endl << "8. Change PIN" <<endl;
+                cout << endl << "7. Change PIN";
+                cout << endl << "8. Exit" <<endl;
                 cin >> choice;
 
                 switch (choice) {
@@ -210,9 +210,6 @@ int main() {
                         break;
 
                     case 7:
-                        exit(0);
-
-                    case 8: 
                         {
                             int oldPIN, newPIN;
                             cout << endl << "Enter Old PIN: ";
@@ -230,6 +227,9 @@ int main() {
                             cin.get();
                             break;
                         }
+
+                    case 8: 
+                        exit(0);
 
 
                     default:
