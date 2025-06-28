@@ -8,8 +8,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include <unistd.h>  // For Linux
-// #include <windows.h>  // Uncomment this line for Windows users and comment out 'unistd.h'
+#include <unistd.h>
 
 using namespace std;
 
